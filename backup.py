@@ -7,7 +7,7 @@ class DataHora:
         now.month, '-', now.year )
 
 
-class backup:
+class Backup:
     def gerabackup():
         date = (time.strftime("%Y-%m-%d"))
 
