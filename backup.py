@@ -6,9 +6,10 @@ class Datahora:
     print ( date.hour, ':', date.minute, '  ', date.day, '-', 
         date.month, '-', date.year )
 
-@staticmethod
+
 class Backup:
-    def gerabackup():
+    @staticmethod
+    def gerabackup( backup ):
 #        date = (time.strftime("%Y-%m-%d"))
 
     #cria o nome do arquivo de backup
@@ -23,4 +24,4 @@ class Backup:
     #comando de execução
         backup = 'tar cvf %s %s' % (pathdesdino, pathorigem)
 
-        print ( backup )
+        return backup 
