@@ -1,14 +1,15 @@
 #Constroi o arquivo e path de backup e retorna
 from datetime import datetime, date
 
-now = datetime.now()
-print ( now.hour, ':', now.minute, '  ', now.day, '-', 
-    now.month, '-', now.year )
+class Datahora:
+    date = datetime.now()
+    print ( date.hour, ':', date.minute, '  ', date.day, '-', 
+        date.month, '-', date.year )
 
-
+@staticmethod
 class Backup:
     def gerabackup():
-        date = (time.strftime("%Y-%m-%d"))
+#        date = (time.strftime("%Y-%m-%d"))
 
     #cria o nome do arquivo de backup
         backupfile = '%s-backup-full.tar.gz' % date
@@ -22,4 +23,4 @@ class Backup:
     #comando de execução
         backup = 'tar cvf %s %s' % (pathdesdino, pathorigem)
 
-        return backup
+        print ( backup )
