@@ -3,7 +3,7 @@
 from datetime import datetime
 
 def gerabackup():
-    date = (time.strftime("%Y-%m-%d"))  
+    date = ( time.strftime("%Y-%m-%d") )
     
     #cria o nome do arquivo de backup
     backupfile = '%s-backup-full.tar.gz' % date 
