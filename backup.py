@@ -1,10 +1,10 @@
 #Constroi o arquivo e path de backup e retorna
 from datetime import datetime, date
 
-class DataHora:
-    now = datetime.now()
-    print ( now.hour, ':', now.minute, '  ', now.day, '-', 
-        now.month, '-', now.year )
+now = datetime.now()
+print ( now.hour, ':', now.minute, '  ', now.day, '-', 
+    now.month, '-', now.year )
+        
 
 
 class Backup:
