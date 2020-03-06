@@ -2,15 +2,6 @@ import unittest
 
 
 def soma(a, b):
-    u"""
-        Função faz a soma de dois números.
-
-        Ex:
-            >> soma(1, 2)
-            3
-            >> soma(3, 4)
-            7
-    """
     return a + b
 
 
