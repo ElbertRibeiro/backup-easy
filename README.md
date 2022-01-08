@@ -21,7 +21,7 @@
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- PYTHON 3
+- Python 3
 
 ## 💻 Projeto
 
